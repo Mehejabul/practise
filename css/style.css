@@ -1,0 +1,739 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,500,600,700|Roboto:300,400,500,700&display=swap');
+
+/*===============================================================================
+ common css start
+================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+/*=========== common style ==========*/
+.about_section {
+    text-align: center;
+}
+
+.about_section h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333333;
+    padding-top: 91px;
+}
+
+.about_section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    position: relative;
+    padding-bottom: 41px;
+    margin-bottom: 46px;
+}
+
+.about_section h2:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    height: 3px;
+    width: 60px;
+    background: #f38181;
+    transform: translate(-50%);
+
+}
+
+.about_section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+
+
+}
+
+/*=========================================================
+end of common css
+============================================================*/
+
+/*============================================================
+navbar start
+============================================================*/
+.navbar .navbar-nav .nav-item {
+    padding: 40px 27px;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 999999;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fce38a;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:before {
+    position: absolute;
+    content: ' ';
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #fce38a;
+    transform: scaleX(0);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover:before {
+    transform: scaleX(1);
+    width: 100%;
+    transition: all .3s linear;
+}
+
+/*============================================================
+navbar end
+============================================================*/
+
+
+/*============================================================
+banner csss
+============================================================*/
+
+.banner_area {
+
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.banner_overlay {
+    background: linear-gradient(to bottom, rgb(243, 129, 129, 0.90), rgb(252, 227, 138, 0.90));
+    height: 100%;
+
+}
+
+.banner_text {
+    margin-top: 277px;
+}
+
+.banner_text h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: #fff;
+}
+
+.banner_text h1 {
+    font-size: 150px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding-top: 57px;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.banner_text h1:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    height: 3px;
+    width: 60px;
+    background: #ffffff;
+    transform: translate(-50%);
+
+}
+
+.banner_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 30px;
+    margin-top: 50px;
+    margin-bottom: 230px;
+}
+
+/*============================================================
+banner csss
+============================================================*/
+
+/*============================================================
+about area css
+============================================================*/
+.story_img {
+    position: relative;
+    margin: 100px 0px;
+}
+
+.img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgb(243, 129, 129, .90), rgb(252, 227, 138, .90));
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    opacity: 0;
+}
+
+.story_img:hover .img_overlay {
+    opacity: 1;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+
+.overlay_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*============================================================
+about area css End
+============================================================*/
+
+/*============================================================
+counter area css
+============================================================*/
+.counter_area {
+    width: 100%;
+    height: 267px;
+    background: #95e1d3;
+}
+
+.counter_section {
+    margin: 77px 0px;
+}
+
+.counter_section .countup {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.counter_section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+/*============================================================
+  counter area css
+============================================================*/
+
+/*============================================================
+    sevices area icon and text start
+============================================================*/
+.icon {
+    padding-top: 10px;
+    padding-left: 39px;
+}
+
+.icon i {
+    font-size: 32px;
+    color: #95e1d3;
+
+}
+
+.text {
+    line-height: 1;
+}
+
+.text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+}
+
+/*============================================================
+    sevices area icon and text End
+============================================================*/
+/*============================================================
+    slider_area start
+============================================================*/
+.slider_area {
+    background: #f8f8f8;
+    position: relative;
+    padding: 70px 0;
+    margin-bottom: 100px;
+}
+
+.single_slider {}
+
+.single_slider .slider_img {
+    border: 3px solid #95e1d3;
+    text-align: center;
+    padding: 44px 41px;
+}
+
+.single_slider .slider_text {
+    padding-left: 30px;
+}
+
+.single_slider .slider_text h4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    position: relative;
+    padding-left: 70px;
+}
+
+.single_slider .slider_text h4:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 60px;
+    background: #f38181;
+}
+
+.left_arrow,
+.right_arrow {
+    position: absolute;
+    top: 50%;
+    background: transparent;
+    border: 0;
+    font-size: 42px;
+    transform: translateY(-50%);
+}
+
+.left_arrow {
+    left: 0;
+}
+
+.right_arrow {
+    right: 0;
+}
+
+/*============================================================
+    slider_area EnD
+============================================================*/
+
+/*============================================================
+    team section css start
+============================================================*/
+.team_img {
+    position: relative;
+    margin-top: 94px;
+}
+
+.team_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgb(243, 129, 129, .90), rgb(252, 227, 138, .90));
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: 0;
+
+
+}
+
+.team_img:hover .team_img_overlay {
+
+    opacity: 1;
+    visibility: 1;
+    transition: all .3s linear;
+}
+
+.overlay_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 63%;
+    transform: translate(-50%, -50%);
+
+}
+
+.overlay_icon a {
+    height: 55px;
+    width: 55px;
+    background: #fce38a;
+    color: #f38181;
+    font-size: 26px;
+    text-align: center;
+    line-height: 55px;
+    margin-left: -5px;
+    transition: all .3s linear;
+}
+
+.overlay_icon a:hover {
+    background: #f38181;
+    color: #ffffff;
+
+}
+
+.last_text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.last_text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.last_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    color: #999999;
+}
+
+/*============================================================
+    team section css start
+============================================================*/
+
+/*============================================================
+    0ur_work image section start
+============================================================*/
+
+.our_work {
+    margin: 100px 0;
+}
+
+.our_work .image_work .first_img {
+    position: relative;
+}
+
+.our_work .image_work .first_img:hover .image_overlay {
+    opacity: 1;
+}
+
+.image_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom, rgb(243, 129, 129, .90), rgb(252, 227, 138, .90));
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.image_overlay .overlay_up {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.overlay_up i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.image_overlay .overlay_up h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.image_overlay .overlay_up p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/*============================================================
+    0ur_work image section finished
+============================================================*/
+
+/*============================================================
+    footer_area_start
+============================================================*/
+
+.footer_section {
+    background: #f8f8f8;
+}
+
+.footer_left {
+    margin-top: 72px;
+}
+
+.footer_left p {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 43px;
+
+}
+
+.footer_left h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 53px;
+    position: relative;
+}
+
+.footer_left h3:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #e5e5e5;
+    margin-top: 17px;
+
+}
+
+.icon_text {
+    margin-bottom: 35px;
+    padding-top: 20px;
+}
+
+.icon_text p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+}
+
+.icon_text a {
+    color: #95e1d3;
+    padding: 0 6px;
+    font-size: 16px;
+}
+
+.email_area {
+    position: relative;
+}
+
+.email_area input {
+    width: 380px;
+    height: 40px;
+    border: solid 1px #ccc;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+}
+
+.button_area {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+
+}
+
+.button_area a {
+    background: #9de3d6;
+    color: #ffffff;
+    padding: 13px 36px;
+    line-height: 1;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.middle_area {}
+
+.middle_area h2 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    color: #333333;
+}
+
+.middle_img {
+    padding-top: 28px;
+
+}
+
+.middle_img_one {}
+
+.middle_img_one img {
+    width: 35%;
+    float: left;
+}
+
+.middle_img_text {
+    width: 65%;
+    float: left;
+    padding-left: 10px;
+}
+
+.middle_img_text h4 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-top: 10px;
+}
+
+.middle_img_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+}
+
+.footer_right {
+    padding-top: 75px;
+}
+
+.footer_right h2 {
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right_img {
+    margin-bottom: 20px;
+}
+
+.right_img img {
+    width: 30%;
+    padding: 2px 0;
+}
+
+.right_img a {
+    text-decoration: none;
+}
+
+.right_img a h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+}
+
+.last_footer {
+    margin: 30px;
+}
+
+.last_footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    position: relative;
+    padding-top: 23px;
+}
+
+.last_footer p:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #e5e5e5;
+}
+
+.last_footer a {
+    text-decoration: none;
+    color: #f38181;
+}
+
+/*============================================================
+    footer_area_end
+============================================================*/
+/*============================================================
+    back-to_top_button start
+============================================================*/
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    background-color: #29b8be;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 50%;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: none;
+
+
+
+
+    /*============================================================
+    back-to_top_button end
+============================================================*/

@@ -1,0 +1,311 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .button_area {
+
+        right: -10%;
+    }
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar {
+
+        padding: 30px 0px !important;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-nav.ml-auto {
+        background: #444;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner_area {
+        height: 100vh;
+    }
+
+    .banner_text {
+        margin-top: 158px;
+    }
+
+    .banner_text h1 {
+        font-size: 100px;
+        line-height: 101px;
+        padding-top: 19px;
+        padding-bottom: 34px;
+    }
+
+    .banner_text h2 {
+        font-size: 54px;
+
+    }
+
+    .img_overlay {
+        padding-top: 44px;
+
+    }
+
+    .counter_section .countup {
+        font-size: 64px;
+
+    }
+
+    .counter_section p {
+        font-size: 9px;
+
+    }
+
+    .single_slider .slider_img {
+        padding: 19px 29px;
+    }
+
+    .single_slider .slider_text {
+        font-size: 12px;
+    }
+
+    .single_slider .slider_text h4 {
+        margin-top: -10px;
+    }
+
+    .overlay_icon a {
+        width: 33px;
+
+    }
+
+    .button_area {
+        right: 33%;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar {
+
+        padding: 30px 0px !important;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-nav.ml-auto {
+        background: #444;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner_area {
+        height: 100vh;
+    }
+
+    .banner_text {
+        margin-top: 158px;
+    }
+
+    .banner_text h1 {
+        font-size: 81px;
+        line-height: 84px;
+        padding-top: 19px;
+        padding-bottom: 20px;
+    }
+
+    .banner_text h2 {
+        font-size: 54px;
+    }
+
+    .story_img {
+        margin-bottom: 22px;
+        margin-top: 1px;
+    }
+
+    .counter_section .countup {
+        font-size: 42px;
+    }
+
+    .counter_section p {
+        font-size: 9px;
+
+    }
+
+    .slider_area {
+        margin-bottom: -35px;
+    }
+
+    .single_slider .slider_text {
+        font-size: 11px;
+    }
+
+    .single_slider .slider_text h4 {
+        margin-top: -10px;
+    }
+
+    .team_img {
+        margin-top: 15px;
+    }
+
+    .overlay_icon {
+        left: 60%;
+
+    }
+
+    .about_section h3 {
+        padding-top: 52px;
+    }
+
+    .our_work {
+        margin: 17px 0;
+    }
+
+    .overlay_icon a {
+        width: 59px;
+    }
+
+    .button_area {
+        right: 23%;
+    }
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .navbar {
+
+        padding: 30px 0px !important;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-nav.ml-auto {
+        background: #444;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner_area {
+        height: 100vh;
+    }
+
+    .banner_text {
+        margin-top: 214px;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+        line-height: 54px;
+        padding-top: 2px;
+        padding-bottom: 13px;
+    }
+
+    .banner_text h2 {
+        font-size: 39px;
+    }
+
+    .banner_btn {
+        margin-top: 25px;
+
+    }
+
+    .about_section h3 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 23px;
+
+    }
+
+    .about_section h2 {
+        font-size: 22px;
+        padding-bottom: 17px;
+        margin-bottom: 15px;
+    }
+
+    .about_section p {
+        font-size: 13px;
+
+    }
+
+    .img_overlay {
+        padding-top: 72px;
+
+    }
+
+    .story_img {
+        margin-bottom: 22px;
+        margin-top: 1px;
+    }
+
+    .counter_area {
+        height: 164px;
+
+    }
+
+    .counter_section .countup {
+        font-size: 14px;
+    }
+
+    .counter_section p {
+        font-size: 7px;
+        padding-left: 4px;
+    }
+
+    .single_slider .slider_img {
+        padding: 27px 43px;
+        margin-bottom: 15px;
+    }
+
+    .slider_area {
+        margin-bottom: -35px;
+    }
+
+    .single_slider .slider_text {
+        font-size: 11px;
+    }
+
+    .single_slider .slider_text h4 {
+        margin-top: -20px;
+        font-size: 19px;
+        padding-left: 62px;
+    }
+
+    .team_img {
+        margin-top: 15px;
+    }
+
+    .overlay_icon {
+        left: 59%;
+        width: 54%;
+    }
+
+    .about_section h3 {
+        padding-top: 52px;
+    }
+
+    .our_work {
+        margin: 17px 0;
+    }
+
+    .overlay_icon a {
+        width: 59px;
+    }
+
+    .button_area {
+        right: -1%;
+    }
+
+
+}
